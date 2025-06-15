@@ -1,0 +1,29 @@
+# Core ML and AI dependencies
+torch>=1.13.0
+torchvision>=0.14.0
+transformers>=4.21.0
+accelerate>=0.20.0
+
+# Image processing
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# Web interface
+gradio>=3.40.0
+
+# Text processing and tokenization
+tokenizers>=0.13.0
+sentencepiece>=0.1.97
+
+# Optional: For better performance and compatibility
+safetensors>=0.3.0
+huggingface-hub>=0.15.0
+
+# System utilities
+requests>=2.25.0
+tqdm>=4.62.0
+
+# Optional: Uncomment for CUDA 11.7 support
+# --extra-index-url https://download.pytorch.org/whl/cu117
+# torch>=1.13.0+cu117
+# torchvision>=0.14.0+cu117
