@@ -265,12 +265,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📖 [Gradio Documentation](https://gradio.app/docs/) - Interface customization
 - 🔥 [PyTorch Tutorials](https://pytorch.org/tutorials/) - Deep learning basics
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/Image-Caption-Generation-Using-Blip/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/Image-Caption-Generation-Using-Blip/discussions)
-- **Documentation**: This README and inline code comments
-
 ---
 
 **⭐ Star this repository if you find it helpful!**
