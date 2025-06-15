@@ -5,7 +5,7 @@ from PIL import Image
 from transformers import AutoProcessor, BlipForConditionalGeneration
 
 # Check for GPU availability
-device = "cpu" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-base", use_fast=True)
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to(device)
